@@ -1,0 +1,1 @@
+This repository contains all the lab files for IE 7374 MLOps Course.
