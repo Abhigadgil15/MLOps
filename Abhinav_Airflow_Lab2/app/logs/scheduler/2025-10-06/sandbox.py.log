@@ -1,0 +1,28 @@
+[2025-10-06T17:11:24.483+0000] {processor.py:153} INFO - Started process (PID=1338) to work on /opt/airflow/dags/sandbox.py
+[2025-10-06T17:11:24.484+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sandbox.py for tasks to queue
+[2025-10-06T17:11:24.484+0000] {logging_mixin.py:137} INFO - [2025-10-06T17:11:24.484+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sandbox.py
+[2025-10-06T17:11:24.493+0000] {logging_mixin.py:137} INFO - [2025-10-06T17:11:24.490+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/sandbox.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sandbox.py", line 3, in <module>
+    from src.lab import load_data, data_preprocessing, build_save_model, load_model_elbow
+ModuleNotFoundError: No module named 'src'
+[2025-10-06T17:11:24.493+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/sandbox.py
+[2025-10-06T17:11:24.506+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sandbox.py took 0.026 seconds
+[2025-10-06T17:11:54.754+0000] {processor.py:153} INFO - Started process (PID=1387) to work on /opt/airflow/dags/sandbox.py
+[2025-10-06T17:11:54.755+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sandbox.py for tasks to queue
+[2025-10-06T17:11:54.756+0000] {logging_mixin.py:137} INFO - [2025-10-06T17:11:54.756+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sandbox.py
+[2025-10-06T17:11:54.762+0000] {logging_mixin.py:137} INFO - [2025-10-06T17:11:54.760+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/sandbox.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sandbox.py", line 3, in <module>
+    from src.lab import load_data, data_preprocessing, build_save_model, load_model_elbow
+ModuleNotFoundError: No module named 'src'
+[2025-10-06T17:11:54.762+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/sandbox.py
+[2025-10-06T17:11:54.775+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sandbox.py took 0.025 seconds
