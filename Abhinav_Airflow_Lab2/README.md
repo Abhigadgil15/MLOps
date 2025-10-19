@@ -6,7 +6,7 @@
 
 Apache Airflow is an open-source platform designed to programmatically author, schedule, and monitor workflows. It enables the orchestration of complex computational workflows and data processing pipelines using Python scripts. Workflows in Airflow are defined as **Directed Acyclic Graphs (DAGs)**, where each node represents a task, and edges define dependencies between them.
 
-![Airflow Working Screenshot](assets/working_dag.png)
+![Airflow Working Screenshot](app/assets/working_dag.png)
 
 The above image shows the Airflow UI with the DAGs running successfully in the lab environment.
 
@@ -43,7 +43,7 @@ To run this lab, you need the following installed on your system:
 
 ### Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Abhigadgil15/MLOps.git
 cd Abhinav_Airflow_Lab2
 ```
 

@@ -54,7 +54,7 @@ Abhinav_Docker_Lab3/
 
 ### 5.1 Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Abhigadgil15/MLOps.git
 cd Abhinav_Docker_Lab3
 ```
 
