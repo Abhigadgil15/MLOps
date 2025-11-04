@@ -72,21 +72,8 @@ Includes model loading and inference examples.
 
 ---
 
-### 🧠 Block 5: Keras Neural Network (MNIST)
 
-```bash
-python MLflow_Keras_MNIST.py
-```
-
-**What it does:** 
-
-Deep learning example using TensorFlow/Keras on MNIST dataset. 
-
-Demonstrates autologging for neural networks with training history visualization.
-
----
-
-### 🔬 Block 6: GridSearch with Random Forest
+### 🔬 Block 5: GridSearch with Random Forest
 
 ```bash
 python MLflow_GridSearch_RF.py
