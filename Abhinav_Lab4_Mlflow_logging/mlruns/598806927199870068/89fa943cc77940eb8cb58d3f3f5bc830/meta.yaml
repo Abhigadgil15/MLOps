@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/abhinavgadgil/Documents/GitHub/MLOps/Labs/Experiment_Tracking_Labs/Mlflow_Labs/Lab2/mlruns/598806927199870068/89fa943cc77940eb8cb58d3f3f5bc830/artifacts
+end_time: 1762218401253
+entry_point_name: ''
+experiment_id: '598806927199870068'
+lifecycle_stage: active
+run_id: 89fa943cc77940eb8cb58d3f3f5bc830
+run_name: autolog_logistic
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762218398815
+status: 3
+tags: []
+user_id: abhinavgadgil

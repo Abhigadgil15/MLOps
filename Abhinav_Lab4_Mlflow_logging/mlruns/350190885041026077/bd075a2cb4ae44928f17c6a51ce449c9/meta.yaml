@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/abhinavgadgil/Documents/GitHub/MLOps/Labs/Experiment_Tracking_Labs/Mlflow_Labs/Lab2/mlruns/350190885041026077/bd075a2cb4ae44928f17c6a51ce449c9/artifacts
+end_time: 1762218229917
+entry_point_name: ''
+experiment_id: '350190885041026077'
+lifecycle_stage: active
+run_id: bd075a2cb4ae44928f17c6a51ce449c9
+run_name: basic_simulation
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762218229906
+status: 3
+tags: []
+user_id: abhinavgadgil

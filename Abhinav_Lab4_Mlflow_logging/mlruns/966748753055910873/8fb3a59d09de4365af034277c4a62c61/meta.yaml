@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/abhinavgadgil/Documents/GitHub/MLOps/Labs/Experiment_Tracking_Labs/Mlflow_Labs/Lab2/mlruns/966748753055910873/8fb3a59d09de4365af034277c4a62c61/artifacts
+end_time: 1762218449787
+entry_point_name: ''
+experiment_id: '966748753055910873'
+lifecycle_stage: active
+run_id: 8fb3a59d09de4365af034277c4a62c61
+run_name: trial_13
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762218449778
+status: 3
+tags: []
+user_id: abhinavgadgil

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/abhinavgadgil/Documents/GitHub/MLOps/Labs/Experiment_Tracking_Labs/Mlflow_Labs/Lab2/mlruns/966748753055910873/0973725c4a814fc096a8947881886859/artifacts
+end_time: 1762218452339
+entry_point_name: ''
+experiment_id: '966748753055910873'
+lifecycle_stage: active
+run_id: 0973725c4a814fc096a8947881886859
+run_name: gridsearch_parent
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762218446940
+status: 3
+tags: []
+user_id: abhinavgadgil

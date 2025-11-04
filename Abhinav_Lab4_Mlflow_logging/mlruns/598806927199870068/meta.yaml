@@ -1,0 +1,6 @@
+artifact_location: file:///Users/abhinavgadgil/Documents/GitHub/MLOps/Labs/Experiment_Tracking_Labs/Mlflow_Labs/Lab2/mlruns/598806927199870068
+creation_time: 1762218398144
+experiment_id: '598806927199870068'
+last_update_time: 1762218398144
+lifecycle_stage: active
+name: Iris_Autologging_Experiment

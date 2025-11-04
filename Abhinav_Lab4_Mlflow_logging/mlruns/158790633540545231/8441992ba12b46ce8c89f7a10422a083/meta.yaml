@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/abhinavgadgil/Documents/GitHub/MLOps/Labs/Experiment_Tracking_Labs/Mlflow_Labs/Lab2/mlruns/158790633540545231/8441992ba12b46ce8c89f7a10422a083/artifacts
+end_time: 1762218275112
+entry_point_name: ''
+experiment_id: '158790633540545231'
+lifecycle_stage: active
+run_id: 8441992ba12b46ce8c89f7a10422a083
+run_name: logistic_regression_scaled
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762218273245
+status: 3
+tags: []
+user_id: abhinavgadgil

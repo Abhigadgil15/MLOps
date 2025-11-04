@@ -1,0 +1,10 @@
+artifact_location: file:///Users/abhinavgadgil/Documents/GitHub/MLOps/Labs/Experiment_Tracking_Labs/Mlflow_Labs/Lab2/mlruns/966748753055910873/models/m-5cb6ee052fe24b28b6a8a2cd60417a58/artifacts
+creation_timestamp: 1762218449901
+experiment_id: '966748753055910873'
+last_updated_timestamp: 1762218451866
+model_id: m-5cb6ee052fe24b28b6a8a2cd60417a58
+model_type: null
+name: best_random_forest_model
+source_run_id: 0973725c4a814fc096a8947881886859
+status: 2
+status_message: null
