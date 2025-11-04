@@ -159,7 +159,7 @@ mlflow-experiments/
 │   ├── .trash/                          # Deleted runs
 │   └── experiments/                     # Experiment metadata
 │
-├── 📂 artifacts/                        # Generated visualizations and models
+├── 📂 assets/                        # Generated visualizations and models
 │   ├── feature_distributions.png
 │   ├── confusion_matrix.png
 │   ├── training_history.png
@@ -169,7 +169,6 @@ mlflow-experiments/
 ├── 📄 MLflow_Basic_Tracking.py         # Simple tracking example
 ├── 📄 MLflow_Logistic_Regression.py    # Classification with preprocessing
 ├── 📄 MLflow_Autologging.py            # Automatic logging demo
-├── 📄 MLflow_Keras_MNIST.py            # Deep learning example
 ├── 📄 MLflow_GridSearch_RF.py          # Hyperparameter optimization
 │
 └── 📖 README.md                         # This file
