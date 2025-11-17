@@ -1,0 +1,45 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    environment:
+      POSTGRES_USER: mlflow
+      POSTGRES_PASSWORD: mlflow
+      POSTGRES_DB: mlflowdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  mlflow-server:
+    build:
+      context: .
+    container_name: mlflow-server
+    depends_on:
+      - postgres
+    command: >
+      mlflow server
+      --host 0.0.0.0
+      --port 5000
+      --backend-store-uri postgresql://mlflow:mlflow@postgres:5432/mlflowdb
+      --default-artifact-root file:///root/.mlflow/artifacts
+    ports:
+      - "5050:5000"
+    environment:
+      MLFLOW_TRACKING_URI: http://localhost:5000
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 20s
+      timeout: 10s
+      retries: 10
+      start_period: 30s
+    volumes:
+      - mlflow_data:/root/.mlflow
+    restart: unless-stopped
+
+volumes:
+  mlflow_data:
+  postgres_data:
