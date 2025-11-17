@@ -536,28 +536,3 @@ MS Computer Science Student | Northeastern University
 
 ---
 
-## 🤝 Contributing
-
-Feel free to fork this project and adapt it for your own use cases. Suggestions and improvements are welcome!
-
----
-
-## 📧 Support
-
-If you encounter any issues:
-1. Check the [Troubleshooting](#troubleshooting) section
-2. Review TensorFlow/Keras Tuner documentation
-3. Check Python and package versions
-
----
-
-## ⭐ Acknowledgments
-
-- Scikit-learn team for the Diabetes dataset
-- TensorFlow and Keras teams for the deep learning framework
-- Keras Tuner developers for the hyperparameter optimization library
-
----
-
-**Last Updated:** November 2025  
-**Version:** 1.0.0
