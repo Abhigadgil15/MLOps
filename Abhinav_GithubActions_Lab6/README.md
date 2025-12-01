@@ -22,16 +22,17 @@ By the end of this lab, I wanted to achieve:
 
 ## 🗂 Project Structure
 ```
-Abhinav_GithubActions_Lab6/
-├── src/
-│   └── train_and_save_model.py  # Script for training & saving the model
-├── trained_models/              # Local folder for saved models
+repo-root/
 ├── .github/
 │   └── workflows/
 │       └── lab6_pipeline.yaml  # CI/CD workflow
-├── Dockerfile                   # Dockerfile for building the model image
-├── requirements.txt             # Python dependencies
-└── .env                         # Environment variables (GCS_BUCKET_NAME, VERSION_FILE_NAME)
+└── Abhinav_GithubActions_Lab6/
+    ├── src/
+    │   └── train_and_save_model.py  # Script for training & saving the model
+    ├── trained_models/              # Local folder for saved models
+    ├── Dockerfile                   # Dockerfile for building the model image
+    ├── requirements.txt             # Python dependencies
+    └── .env                         # Environment variables (GCS_BUCKET_NAME, VERSION_FILE_NAME)
 ```
 
 ## 🔧 Prerequisites
@@ -56,7 +57,7 @@ Before running anything:
 ### 1. Clone the Repository
 ```bash
 git clone <repository-url>
-cd Abhinav_GithubActions_Lab6
+cd <repository-root>
 ```
 
 ### 2. Configure GCP Credentials
@@ -74,6 +75,11 @@ export GOOGLE_APPLICATION_CREDENTIALS="/path/to/service-account.json"
 ```
 
 ### 3. Local Development
+
+Navigate to the lab folder:
+```bash
+cd Abhinav_GithubActions_Lab6
+```
 
 Create a virtual environment and activate it:
 ```bash
