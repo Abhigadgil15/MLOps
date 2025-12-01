@@ -1,4 +1,4 @@
-# Lab 6: CI/CD Pipeline for Machine Learning with GitHub Actions and GCP
+# Abhinav_GithubActions_Lab6: CI/CD Pipeline for Machine Learning with GitHub Actions and GCP
 
 Hey! In this lab, I'm walking you through how I set up a CI/CD pipeline for a machine learning project using GitHub Actions and Google Cloud Platform (GCP). The goal is to automate model training, versioning, and deployment in a reproducible way.
 
@@ -22,7 +22,7 @@ By the end of this lab, I wanted to achieve:
 
 ## 🗂 Project Structure
 ```
-Lab6/
+Abhinav_GithubActions_Lab6/
 ├── src/
 │   └── train_and_save_model.py  # Script for training & saving the model
 ├── trained_models/              # Local folder for saved models
@@ -56,7 +56,7 @@ Before running anything:
 ### 1. Clone the Repository
 ```bash
 git clone <repository-url>
-cd Lab6
+cd Abhinav_GithubActions_Lab6
 ```
 
 ### 2. Configure GCP Credentials
@@ -124,18 +124,18 @@ The workflow (`.github/workflows/lab6_pipeline.yaml`) handles:
 - **GCS:** Check `trained_models` and `model_version.txt`.
 - **Artifact Registry:** Confirm Docker image is available with both version and `latest` tags.
 
-### 6. Git Commands for Lab6
+### 6. Git Commands for Abhinav_GithubActions_Lab6
 
 To trigger the workflow:
 ```bash
 git add .
-git commit -m "Update Lab6 CI/CD pipeline"
+git commit -m "Update Abhinav_GithubActions_Lab6 CI/CD pipeline"
 git push origin main
 ```
 
 Or create an empty commit if no code changes:
 ```bash
-git commit --allow-empty -m "Trigger Lab6 workflow"
+git commit --allow-empty -m "Trigger Abhinav_GithubActions_Lab6 workflow"
 git push
 ```
 
