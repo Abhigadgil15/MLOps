@@ -9,7 +9,7 @@ on:
 
 env:
   REGION: us-east4                     # GCP region for Artifact Registry
-  REPOSITORY_NAME: my-repo             # Your Artifact Registry repo name
+  REPOSITORY_NAME: ml-lab-6            # Your Artifact Registry repo name
 
 jobs:
   build_test_and_deploy:
