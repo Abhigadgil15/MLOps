@@ -2,3 +2,24 @@
 *.zip
 FLASK_GCP_LAB/
 Streamlit_Labs/
+
+# Python cache
+Labs/API_Labs/Abhinav_GithubActions_Lab6/__pycache__/
+Labs/API_Labs/Abhinav_GithubActions_Lab6/*.pyc
+Labs/API_Labs/Abhinav_GithubActions_Lab6/*.pyo
+Labs/API_Labs/Abhinav_GithubActions_Lab6/*.pyd
+
+# Virtual environment
+Labs/API_Labs/Abhinav_GithubActions_Lab6/github_actions/
+Labs/API_Labs/Abhinav_GithubActions_Lab6/.env
+
+# Model files
+Labs/API_Labs/Abhinav_GithubActions_Lab6/*.joblib
+Labs/API_Labs/Abhinav_GithubActions_Lab6/trained_models/
+
+# OS-specific
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
