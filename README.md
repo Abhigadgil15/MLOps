@@ -1,1 +1,1 @@
-This repository contains all the lab files for IE 7374 MLOps Course.
+This repository contains all the labs for IE7374 Machine Learning Operations.
